@@ -1,6 +1,6 @@
 {
-  "name": "winston-gelf-transporter",
-  "version": "1.0.2",
+  "name": "unfuck-winston-gelf-transporter",
+  "version": "1.0.0",
   "description": "A Winston transporter for sending GELF messages",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bytetechnology/winston-gelf-transporter.git"
+    "url": "git+https://github.com/UniversityOfHelsinkiCS/unfuck-winston-gelf-transporter.git"
   },
   "keywords": [
     "gelf",
