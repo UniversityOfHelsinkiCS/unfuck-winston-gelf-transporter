@@ -1,4 +1,4 @@
-winston-gelf-transporter
+unfack-winston-gelf-transporter
 ========================
 A Winston transporter for sending GELF messages to your Graylog server.
 
@@ -8,19 +8,19 @@ A Winston transporter for sending GELF messages to your Graylog server.
 
 To install with npm
 ```shell script
-npm install winston-gelf-transporter
+npm i unfack-winston-gelf-transporter
 ```
 ### Importing
 
 ES6 style
 
 ```js
-import WinstonGelfTransporter from 'winston-gelf-transporter';
+import WinstonGelfTransporter from 'unfack-winston-gelf-transporter';
 ```
 
 CommonJS
 ```js
-const WinstonGelfTransporter = require('winston-gelf-transporter');
+const WinstonGelfTransporter = require('unfack-winston-gelf-transporter');
 ``` 
 
 ### Configuration 
@@ -51,7 +51,7 @@ All you need to do is add the transporter to your winston logger.
 
 ```javascript
 import winston from 'winston';
-import WinstonGelfTransporter from 'winston-gelf-transporter';
+import WinstonGelfTransporter from 'unfack-winston-gelf-transporter';
 
 logger = winston.createLogger({
   level: winston,
